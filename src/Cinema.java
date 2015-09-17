@@ -23,25 +23,25 @@ public class Cinema {
     ArrayList<Seanses> find(String str) {
         ArrayList<Seanses> found = new ArrayList<Seanses>();
 
-        int[] find(String namefind){
+        int[] find(String str){
             int resultCount = 0;
 
-            for (int i = 0; i<count;i++) {
-                if (list[i].getName().startsWith(namefind)) {
+            for (int i = 0; i < count; i++) {
+                if (list[i].getName().startsWith(str)) {
                     resultCount++;
                 }
             }
-            int []found = new int[resultCount];
+            int[] found = new int[resultCount];
             int founds = 0;
-            for (int i = 0; i<count;i++) {
-                if (list[i].getName().startsWith(namefind)) {
+            for (int i = 0; i < count; i++) {
+                if (list[i].getName().startsWith(str)) {
                     //resultCount++;
                     found[founds] = i;
                     founds++;
                 }
             }
 
-
+        }
         // todo
         return found;
     }
