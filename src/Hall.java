@@ -13,11 +13,11 @@ public class Hall {
     public String toString() {
         return rows + " " + seats;
     }
-    public ArrayList<Point> reserve(int row, int seats) {
-        ArrayList<Point> reserve = new ArrayList<Point>();
+    //public ArrayList<Point> reserve(int row, int seats)
+    //    ArrayList<Point> reserve = new ArrayList<Point>();
 
-        return row, seats;
-    }
+
+
 }
 
 /*

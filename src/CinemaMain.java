@@ -35,13 +35,7 @@ public class CinemaMain {
                     } else {
                         System.out.println("выбран фильм"+seanses+  "\n Выберите место ");
                         int seats = Integer.parseInt(in.nextLine());
-                        if (int i=1; i++){
 
-
-                        }
-                        else {
-
-                        }
 
                         System.out.println("Выберите ряд");
                         int rows = Integer.parseInt(in.nextLine());
