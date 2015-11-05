@@ -1,34 +1,16 @@
-import java.awt.*;
-import java.util.ArrayList;
-
 public class Hall {
-    private int rows;
-    private int seats;
 
-    public Hall(int rows, int seats) {
-        this.rows = rows;
-        this.seats = seats;
+    private int[]hallid;
+    private boolean[][] hall;
+
+    public Hall(int[] hallid, boolean[][] hall) {
+        this.hallid = hallid;
+        this.hall = hall;
+
     }
 
-    public String toString() {
-        return rows + " " + seats;
+    public boolean[][] getHall() {
+        System.out.println(hall);
+        return hall;
     }
-    //public ArrayList<Point> reserve(int row, int seats)
-    //    ArrayList<Point> reserve = new ArrayList<Point>();
-
-
-
 }
-
-/*
-* ArrayList<Point> reserved
-*
-* class Point {
-*
-*
-* int x
-* int y
-* }
-* for(point p : reserved)
-*
-* */
