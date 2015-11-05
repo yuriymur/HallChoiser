@@ -2,10 +2,10 @@ import java.util.ArrayList;
 
 public class Cinema {
 
-    private Hall[] halls;
+    private Hall[][] halls;
     private Seanses[] seances;
 
-    public Cinema(Hall[] halls, Seanses[] seances) {
+    public Cinema(Hall[][] halls, Seanses[] seances) {
         this.halls = halls;
         this.seances = seances;
     }

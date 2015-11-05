@@ -3,7 +3,8 @@ import java.util.Scanner;
 
 public class CinemaMain {
     public static void main(String[] args) {
-        Hall[] halls = {new Hall(10 , 20), new Hall(20, 20)};
+        Hall[][] halls = new Hall[2][3];
+        //Hall[][] halls = new Hall[]{new Hall(10, 20), new Hall(20, 20)};
         Seanses[] seances = {new Seanses(1, "Фильм 1", "18:00", 1), new Seanses(2, "Фильм 2", "18:00", 2)};
         Cinema cinemaMy = new Cinema(halls, seances);
 
@@ -48,8 +49,7 @@ public class CinemaMain {
                     return;
                 case 4:
                     System.out.println(halls[1]);
-                    Seanses.class.getName();
-                    System.out.println();
+                    System.out.println(halls);
                     break;
                 default:
                     System.out.println("Введите число от 1 до 3");
